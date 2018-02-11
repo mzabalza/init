@@ -1,0 +1,1 @@
+ping -c1 -W1 www.googlestç.com || echo 'server is down'

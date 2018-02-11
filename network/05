@@ -1,0 +1,1 @@
+ping -c 1 google.com | sed -n 1p | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1
