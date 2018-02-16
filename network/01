@@ -1,1 +1,1 @@
-networksetup -listallhardwareports | grep "Hardware Port"
+networksetup -listallhardwareports | grep "Hardware Port" | awk '{print $3}'
