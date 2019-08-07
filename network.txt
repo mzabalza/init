@@ -1,0 +1,14 @@
+1/ GET THE LIST OF THE NETWORK INTERFACES OF THE MACHINE WITHOUT DISPLAYING ANY DETAIL FOR THESE INTERFACES. ONLY THE LIST OF NAMES
+
+OK
+
+2/ IDENTIFY AND DISPLAY THE ETHERNET INTERFACE CHARACTERISTICS
+
+NOT ENOUGH??- ipconfig getifaddr en0 - 
+ifconfig en0
+
+3/ Identify the MAC address of the Wi-Fi card
+
+OK
+
+4. Identifiy the default gateway in the routing table
